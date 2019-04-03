@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1c54642-742a-4b61-83ea-6090227d971d" name="Default Changelist" comment="" />
+    <list default="true" id="b1c54642-742a-4b61-83ea-6090227d971d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/cn/landv/demo/snake/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +20,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
@@ -56,8 +59,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/landv/demo/snake/Direction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="29" />
+            <state relative-caret-position="499">
+              <caret line="84" column="4" lean-forward="true" selection-start-line="84" selection-start-column="4" selection-end-line="84" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cn/landv/demo/snake/Node.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="e#202#203#0" expanded="true" />
+                <element signature="e#226#227#0" expanded="true" />
+                <element signature="e#251#252#0" expanded="true" />
+                <element signature="e#275#276#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -95,10 +113,13 @@
         <option value="$PROJECT_DIR$/src/cn/landv/demo/snake/snake.java" />
         <option value="$PROJECT_DIR$/src/cn/landv/demo/snake/Grid.java" />
         <option value="$PROJECT_DIR$/src/cn/landv/demo/snake/Direction.java" />
+        <option value="$PROJECT_DIR$/src/cn/landv/demo/snake/Node.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
+    <option name="x" value="686" />
+    <option name="y" value="167" />
     <option name="width" value="960" />
     <option name="height" value="1080" />
   </component>
@@ -172,7 +193,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="snake" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="snake" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.landv.demo.snake.snake" />
       <module name="untitled" />
       <extension name="coverage">
@@ -186,12 +207,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.snake" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.snake" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -212,6 +232,7 @@
       <workItem from="1554085896113" duration="390000" />
       <workItem from="1554086405703" duration="1027000" />
       <workItem from="1554087736797" duration="847000" />
+      <workItem from="1554259473242" duration="540000" />
     </task>
     <task id="LOCAL-00001" summary="贪吃蛇">
       <created>1554088496337</created>
@@ -224,7 +245,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7191000" />
+    <option name="totallyTimeSpent" value="7731000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -236,9 +257,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="686" y="167" width="960" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49947312" visible="true" weight="0.19542067" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49947312" visible="true" weight="0.40413943" />
       <window_info id="Structure" order="1" sideWeight="0.50052685" side_tool="true" weight="0.18849841" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -255,8 +277,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32982087" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49946752" visible="true" weight="0.32982087" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5005325" side_tool="true" visible="true" weight="0.32982087" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49891067" visible="true" weight="0.32982087" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50108933" side_tool="true" visible="true" weight="0.32982087" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -307,17 +329,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/landv/demo/snake/Direction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/landv/demo/snake/Snake.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/landv/demo/snake/Direction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="84" column="4" lean-forward="true" selection-start-line="84" selection-start-column="4" selection-end-line="84" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/landv/demo/snake/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
